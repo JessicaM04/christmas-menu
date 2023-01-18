@@ -1,0 +1,88 @@
+.headerDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+}
+
+.headerDiv h1 {
+  margin: 0;
+  color: rgb(93, 196, 81);
+}
+
+p {
+  color: white;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(62, 60, 60);
+  width: 75rem;
+  height: 50rem;
+}
+
+.bulb {
+  width: 50px;
+  height: 50px;
+  background: white;
+  display: inline-block;
+  margin: 0px 10px;
+  border-radius: 100% 4px;
+  transform: rotate(-45deg);
+  box-shadow: 1px 1px 15px white, -1px -1px 15 px white;
+}
+
+.redBulb {
+  @extend .bulb;
+  background: red;
+  box-shadow: 1px 1px 15px red, -1px -1px 15 px red;
+}
+
+.greenBulb {
+  @extend .bulb;
+  background: green;
+  box-shadow: 1px 1px 15px green, -1px -1px 15 px green;
+}
+
+.blueBulb {
+  @extend .bulb;
+  background: rgb(17, 27, 210);
+  box-shadow: 1px 1px 15px rgb(17, 27, 210), -1px -1px 15 px rgb(17, 27, 210);
+}
+
+.yellowBulb {
+  @extend .bulb;
+  background: yellow;
+  box-shadow: 1px 1px 15px yellow, -1px -1px 15 px yellow;
+}
+
+.purpleBulb {
+  @extend .bulb;
+  background: purple;
+  box-shadow: 1px 1px 15px purple, -1px -1px 15 px purple;
+}
+
+.p1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 75px;
+  color: white;
+}
+
+.foodTypes {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color:rgb(67, 184, 202);
+  
+}
